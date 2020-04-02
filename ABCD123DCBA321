@@ -66,6 +66,7 @@ echo "• Data Tidak ditemukan, silahkan coba lagi"
 echo "• Atau hubungi 911"
 exit 0;
 fi
+echo""
 echo "[√] Patching Enjoyers Done!"
 }
 
@@ -113,7 +114,7 @@ echo "____Clear Cache 100%"
 echo " "
 echo "	  [√] ALL DONE!!!"
 }
-date
+
 echo ""
 instalasi
 sleep 1
