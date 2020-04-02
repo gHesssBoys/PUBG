@@ -39,7 +39,9 @@ echo "• PUBGM GLOBAL Tidak Terinstall"
 echo "• Silahkan Install Terlebih Dahulu Game PUBG GLOBAL 0.17.0"
 exit 0;
 fi
-echo "[START INSTALLASI DATA BYPASS]"
+echo "[√] PROSES INSTALASI DATA BYPASS" 
+echo "[√]JANGAN COBA - COBA DI EXIT/CLOSE MT MANAGER INI"
+sleep 2
 sleep 1
 echo ""
 echo "Tunggu Sebentar......"
@@ -52,7 +54,7 @@ cp -R /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra
 cp -R /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs /sdcard/Android/data/Enjoyers/Global/DATA
 cp -R /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json /sdcard/Android/data/Enjoyers/Global/DATA
 sleep 1
-wget https://raw.githubusercontent.com/FreedyBoys/WewWow/master/paks
+wget https://raw.githubusercontent.com/gHesssBoys/PUBG/master/Sempakerz
 sleep 1
 mv paks /sdcard/Android/data/Enjoyers/Global
 sleep 1
@@ -113,11 +115,8 @@ echo "	  [√] ALL DONE!!!"
 }
 date
 echo ""
-echo "• WARNING.....!!!"
-echo "[√]SEDANG MULAI PROSES" 
-echo "[√]JANGAN DI EXIT/CLOSE MT MANAGER INI"
-sleep 2
 instalasi
+sleep 1
 echo ____________________________________________________________
 echo "• Your Device:" 
 getprop ro.product.brand
