@@ -56,9 +56,9 @@ cp -R /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra
 sleep 1
 wget https://raw.githubusercontent.com/gHesssBoys/PUBG/master/Sempakerz
 sleep 1
-mv paks /sdcard/Android/data/Enjoyers/Global
+mv Sempakerz /sdcard/Android/data/Enjoyers/Global
 sleep 1
-if [ ! -f "/sdcard/Android/data/Enjoyers/Global/paks" ];
+if [ ! -f "/sdcard/Android/data/Enjoyers/Global/Sempakerz" ];
 then
 echo ""
 echo "• Installasi Gagal"
@@ -71,7 +71,7 @@ echo "[√] Patching Enjoyers Done!"
 
 bypass()
 {
-mv /sdcard/Android/data/Enjoyers/Global/paks /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
+mv /sdcard/Android/data/Enjoyers/Global/Sempakerz /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
 }
 
 repair()
