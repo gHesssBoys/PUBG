@@ -1,19 +1,39 @@
 COUNT=50
 Logcleaner () {
 date
-rm -rf /sdcard/tencent
-rm -rf /sdcard/MidasOversea
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs
-rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json
-rm -rf /storage/emulated/0/.backups
 rm -rf /storage/emulated/0/.chaozhuo.gameassistant
 rm -rf /storage/emulated/0/backups
 rm -rf /storage/emulated/0/.estrongs
 rm -rf /storage/emulated/0/.dlprovider
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.ini
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache/GCloud.config
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache/RemoteConfig.config
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache/GCloudSDKLog
+rm -rf /storage/emulated/0/tencent
+rm -rf /storage/emulated/0/.backups
+rm -rf /storage/emulated/0/MidasOversea
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/cache
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ca-bundle.pem
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/tbslog
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/login-identifier.txt
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/cacheFile.txt
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/vmpcloudconfig.json
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ProgramBinaryCache/B94641283CDC11007947F7B24801963EF9533535
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/ProgramBinaryCache
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/afd
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/IGH5Cache
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/GameErrorNoRecords
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/RoleInfo/RoleInfo.json
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/UpdateInfo
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/ImageDownload
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Pandora
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/Engine
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/StatEventReportedFlag
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/PufferTmpDir
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
-echo "━━━━ CLEARING LOG ━━━━"
+echo "━>  CLEARING LOG ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 sleep 10
 }
@@ -40,19 +60,15 @@ echo "• Silahkan Install Terlebih Dahulu Game PUBG GLOBAL 0.17.0"
 exit 0;
 fi
 echo "[√] PROSES INSTALASI DATA BYPASS" 
-echo "[√]JANGAN COBA - COBA DI EXIT/CLOSE MT MANAGER INI"
+echo "[√] JANGAN COBA - COBA DI EXIT/CLOSE MT MANAGER INI"
 sleep 2
 sleep 1
 echo ""
-echo "Tunggu Sebentar......"
+echo "━> Tunggu Sebentar......"
 echo ""
 mkdir /sdcard/Android/data/Enjoyers
 mkdir /sdcard/Android/data/Enjoyers/Global
 mkdir /sdcard/Android/data/Enjoyers/Global/DATA
-cp -R /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/apollo_reslist.flist /sdcard/Android/data/Enjoyers/Global/DATA
-cp -R /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/filelist.json /sdcard/Android/data/Enjoyers/Global/DATA
-cp -R /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/puffer_res.eifs /sdcard/Android/data/Enjoyers/Global/DATA
-cp -R /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/PufferFileList.json /sdcard/Android/data/Enjoyers/Global/DATA
 sleep 1
 wget https://raw.githubusercontent.com/gHesssBoys/PUBG/master/Sempakerz
 sleep 1
@@ -80,6 +96,7 @@ repair()
 rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
 sleep 0
 mv /sdcard/Android/data/Enjoyers/Global/DATA/* /data/media/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks
+echo ""
 echo "	  [√] REPAIR BERHASIL!!!"
 }
 
@@ -93,10 +110,11 @@ rm -rf /sdcard/Android/data/eu.*/cache
 rm -rf /sdcard/Android/data/org.*/cache
 rm -rf /sdcard/Android/data/tv.*/cache
 rm -rf /sdcard/Android/data/net.*/cache
-echo "_Clear Cache 25%"
+echo ""
+echo "━> Clear Cache 25%"
 sleep 1
 rm -rf /sdcard/Android/data/*/cache
-echo "__Clear Cache 50%"
+echo "━━> Clear Cache 50%"
 sleep 1
 rm -rf /data/data/com.*/cache
 rm -rf /data/data/bin.*/cache
@@ -106,11 +124,11 @@ rm -rf /data/data/eu.*/cache
 rm -rf /data/data/org.*/cache
 rm -rf /data/data/tv.*/cache
 rm -rf /data/data/net.*/cache
-echo "___Clear Cache 75%"
+echo "━━━>  Clear Cache 75%"
 sleep 2
 am force-stop com.tencent.ig
 rm -rf /data/data/*/cache
-echo "____Clear Cache 100%"
+echo "━━━━> Clear Cache 100%"
 echo " "
 echo "	  [√] ALL DONE!!!"
 }
@@ -164,9 +182,10 @@ sleep 3
 echo ""
 echo ____________________________________________________________
 echo "[√] FITUR SAFE :"
-echo "-Wallhack & Collor"
-echo "-Less Recoil"
-echo "-Headshot 50% - 70%"
+echo ""
+echo "━> Wallhack & Collor"
+echo "━> Less Recoil"
+echo "━> Headshot 50% - 70%"
 echo ""
 echo "# Jangan Gunakan fitur selain diatas jika takut banned"
 echo "# Jangan Tembak musuh dibalik Tembok,Pohon,Batu dan sebagainya"
