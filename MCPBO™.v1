@@ -1,0 +1,146 @@
+clear()
+{
+rm -rf /sdcard/Android/data/com.tencent.ig/files/tbslog
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Logs
+rm -rf /sdcard/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Screenshots/*
+rm -rf /storage/emulated/0/.chaozhuo.gameassistant
+rm -rf /storage/emulated/0/backups
+rm -rf /storage/emulated/0/.estrongs
+rm -rf /storage/emulated/0/.dlprovider
+rm -rf /storage/emulated/0/osmini
+rm -f /cache/magisk.log
+rm -f /cache/magisk.log.bak
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "RECORD FILES DELETED━━━━ MCPBO™ ━━━━"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+date
+sleep 10
+}
+
+instal()
+{
+if [ ! -d "/data/data/com.tencent.ig" ];
+then
+echo "- PUBGM GLOBAL Tidak Terinstall"
+echo "- Silahkan Install Terlebih Dahulu Apk PUBG GLOBAL 0.17.0"
+exit 0;
+fi
+echo "[MEMULAI INSTALLASI DATA BYPASS GLOBAL v1]"
+sleep 1
+echo ""
+echo "Tunggu Sebentar......"
+echo ""
+rm -rf /storage/emulated/0/.backups/com.tencent.ig
+touch /storage/emulated/0/.backups/com.tencent.ig
+chattr -i /storage/emulated/0/.backups/com.tencent.ig
+rm -rf /storage/emulated/0/tencent/Midas/Log/com.tencent.ig
+touch /storage/emulated/0/tencent/Midas/Log/com.tencent.ig
+chattr -i /storage/emulated/0/tencent/Midas/Log/com.tencent.ig
+chmod -R 555 /data/media/0/MidasOversea/GUID
+rm -rf /data/data/com.tencent.ig/app_crashrecord
+rm -rf /data/data/com.tencent.ig/files
+touch /data/data/com.tencent.ig/app_crashrecord
+touch /data/data/com.tencent.ig/files
+rm -f /cache/magisk.log
+rm -f /cache/magisk.log.bak
+sleep 1
+wget https://raw.githubusercontent.com/gHesssBoys/PUBG/master/V1.dataBypass1
+wget https://raw.githubusercontent.com/gHesssBoys/PUBG/master/V1.dataBypass2
+sleep 1
+mv V1.dataBypass1 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
+mv V2.dataBypass2 /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak
+sleep 1
+if [ ! -f "/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak" ];
+then
+echo ""
+echo "Installasi Gagal"
+echo "Data Tidak ditemukan, silahkan unduh ulang file"
+echo "Atau hubungi admin @gHesss_Boys"
+exit 0;
+fi
+if [ ! -f "/storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak" ];
+then
+echo ""
+echo "Installasi Gagal"
+echo "Data Tidak ditemukan, silahkan unduh ulang file"
+echo "Atau hubungi admin @gHesss_Boys"
+exit 0;
+fi
+echo "Installasi Selesai"
+}
+
+repair()
+{
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11800.pak
+rm -rf /storage/emulated/0/Android/data/com.tencent.ig/files/UE4Game/ShadowTrackerExtra/ShadowTrackerExtra/Saved/Paks/game_patch_0.17.0.11801.pak
+}
+
+echo "√••••••••[START Season12]•••••••••••••••••••••••••••••••••"
+echo "[ PUBG MOBILE GLOBAL BYPASS v1 ]"
+echo ""
+sleep 1
+echo "[ TELEGRAM:  @gHesss_Boys ]"
+echo "[ Coding By: gHesss_Boys ]"
+echo ""
+instal
+echo""
+echo "_____[RULES]"
+echo "___Gunakan BYPASS LOBBY Script MCPBO™ v1"
+echo "___Use BYPASS LOBBY Script MCPBO™ v1"
+sleep 1
+echo ""
+echo "INDONESIA"
+echo "FITUR SAFE :"
+echo "-Wallhack & Collor"
+echo "-Less Recoil"
+echo "-Magic Bullet & Headshot"
+echo ""
+echo "# Hindari Report di dalam GAME"
+echo "# Jangan Gunakan fitur selain diatas"
+echo "# Jika kalian benar benar ingin Push RANK !!"
+echo "# Jangan Tembak musuh dibalik Tembok,Pohon,Batu dan sbagainya,tembaklah saat musuh benar benar terlihat dan logis untuk di bunuh"
+echo ""
+echo "ENGLISH"
+echo "SAFE FEATURES :"
+echo "-Wallhack & Collor"
+echo "-Less Recoil"
+echo "-Magic Bullet & Headshot"
+echo ""
+echo "# Avoid report in GAME"
+echo "# Don't use features other than above"
+echo "# If you really want to Push RANK !!"
+echo "# Do not shoot enemies behind the Wall, Trees, Stones and so on, shoot when the enemy is right seen and logical to kill"
+echo ""
+echo "PLEASE READ !"
+echo " "
+sleep 1
+echo "Starting MCPBO™ GameGuardian...\n"
+sleep 1
+am start -n com.erxjs/com.erxjs.MainActivity
+sleep 2
+am start -n com.erxjs/com.erxjs.MainActivity
+sleep 3
+am start -n bin.mt.plus/bin.mt.plus.Main
+sleep 2
+echo "Starting PUBG MOBILE GLOBAL"
+sleep 3
+am start -n com.tencent.ig/com.epicgames.ue4.SplashActivity
+sleep 70
+PACKAGE='com.tencent.ig'
+while [ $(pidof $PACKAGE) ]
+do
+clear
+if [ ! $(pidof $PACKAGE) ]; then
+break
+fi
+sleep 1
+done
+am start -n bin.mt.plus/bin.mt.plus.Main
+echo "•PUBG MOBILE BERHENTI"
+echo "Menata Ulang Paks Game !"
+echo "Tunggu Sebentar....."
+echo "_Menutup Game Guardian MCPBO™"
+am force-stop com.erxjs
+repair
+echo "All DONE !"
+echo "• Coding By @gHesss_Boys"
